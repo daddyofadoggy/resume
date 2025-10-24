@@ -6,7 +6,7 @@
 
 ## PROFESSIONAL SUMMARY
 
-Applied Scientist with expertise in Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and AI Agents. Demonstrated success in fraud pattern detection using multimodal approaches and developing production-ready generative AI systems. Experienced in fine-tuning, evaluation, and responsible deployment of language models with a focus on business impact.
+Applied Scientist with expertise in Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and AI Agents. Demonstrated success in fraud pattern detection using multimodal approaches and developing production-ready generative AI systems. Experienced in fine-tuning, evaluation, and scaling of language models with a focus on business impact.
 
 ## EXPERIENCE
 
