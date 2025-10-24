@@ -54,10 +54,10 @@ Applied Scientist with expertise in Large Language Models (LLMs), Retrieval-Augm
 ## LLM & AI SKILLS
 
 - **Large Language Models:** GPT (OpenAI), Llama, Mistral, Claude, Qwen, Gemini, BERT, Sentence-BERT
-- **Frameworks:** LangChain, LangGraph, HuggingFace Transformers, PyTorch, TensorFlow, JAX
+- **Frameworks:** LangChain, LangGraph, HuggingFace Transformers, PyTorch, TensorFlow
 - **LLM Techniques:** Fine-tuning, Prompt Engineering, RAG, RLHF, PEFT, LoRA, QLoRA, Red Teaming
 - **Multimodal:** Vision-Language Models (VLMs), OpenAI CLIP, Whisper, BridgeTower, BLIP
-- **Vector Databases:** LanceDB, Pinecone, Milvus, FAISS, Qdrant, ChromaDB, Supabase
+- **Vector Databases:** LanceDB, FAISS, ChromaDB, Supabase
 
 ## EDUCATION
 
