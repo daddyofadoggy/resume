@@ -1,0 +1,299 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[10pt]{article}
+
+% Compact margins
+\usepackage[top=0.5in, bottom=0.5in, left=0.6in, right=0.6in]{geometry}
+
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+% Compact spacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+% Compact lists
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+% Redefine itemize for compact spacing
+\let\olditemize\itemize
+\let\endolditemize\enditemize
+\renewenvironment{itemize}{%
+  \olditemize
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+  \setlength{\topsep}{2pt}
+  \setlength{\partopsep}{0pt}
+}{%
+  \endolditemize
+}
+
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+
+% Blue underlined links
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue,
+  citecolor=blue,
+  pdfcreator={LaTeX via pandoc}}
+
+% Compact section spacing
+\makeatletter
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+  {-6pt plus -2pt minus -2pt}%
+  {3pt plus 2pt minus 2pt}%
+  {\normalfont\large\bfseries}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+  {-4pt plus -2pt minus -2pt}%
+  {2pt plus 2pt minus 2pt}%
+  {\normalfont\normalsize\bfseries}}
+\makeatother
+
+\author{}
+\date{}
+
+\begin{document}
+
+% Name - centered and bold
+{\centering\Large\textbf{DIPANKAR R. BAISYA}\par}
+\vspace{2pt}
+
+% Contact info - centered and compact
+{\centering\small
+100 Denny Way, Unit 416, Seattle, WA 98109 | (909) 582-8488 | dbais001@ucr.edu | \href{https://www.linkedin.com/in/dbaisya}{LinkedIn} | \href{https://github.com/daddyofadoggy}{GitHub} | \href{https://daddyofadoggy.github.io/blog/}{Website}
+\par}
+\vspace{4pt}
+\noindent\rule{\textwidth}{0.5pt}
+\vspace{2pt}
+
+\subsection{PROFESSIONAL SUMMARY}\label{professional-summary}
+
+Applied Scientist specializing in LLMs, RAG, Multi-Agent AI Systems, and production-grade generative AI. Demonstrated success in fraud detection using classical deep learning  and modern multimodal LLM approaches. Experienced in fine-tuning, scaling, and architecting cloud-native AI solutions with proven business impact from internship to senior scientist level.
+
+\subsection{EXPERIENCE}\label{experience}
+
+\subsubsection{\texorpdfstring{Applied Scientist II \textbar{}
+\emph{Amazon, Seattle} \textbar{} Winter 2022 --
+Present}{Applied Scientist II \textbar{} Amazon, Seattle \textbar{} Winter 2022 -- Present}}\label{applied-scientist-ii-amazon-seattle-winter-2022-present}
+
+\begin{itemize}
+\tightlist
+\item
+  Primary ML POC for amazon.mx since 2023, maintaining all ML models for MX retail with cross-functional collaboration; developed LLM-based fraud detection using pre-trained embeddings and multimodal RAG systems, reducing bad debt by 7\%
+\item
+  Developed multi-agent risk-based trading algorithms with Model Context Protocol (MCP) orchestrating 60+ real-time financial APIs, achieving 20\% improvement in output consistency through agent specialization
+\item
+  Led LLM fine-tuning using LoRA, Red Teaming, DPO, and GRPO for fraud detection and security; optimized model inference through Quantization, knowledge Distillation, Distributed training, and Mixed Precision (FP16/BF16)
+\item
+  Promoted from Level 4 to Level 5 (Summer 2023) for technical excellence and business impact
+\end{itemize}
+
+\subsubsection{\texorpdfstring{Applied Scientist Intern \textbar{}
+\emph{Amazon, Seattle} \textbar{} Summer 2019 \&
+2020}{Applied Scientist Intern \textbar{} Amazon, Seattle \textbar{} Summer 2019 \& 2020}}\label{applied-scientist-intern-amazon-seattle-summer-2019-2020}
+
+\begin{itemize}
+\tightlist
+\item
+  Implemented model interpretation for decision tree-based models and
+  deep learning architectures (LSTM, GRU) to improve customer experience
+\item
+  Applied Auto-encoder and bidirectional recurrent neural networks
+  (BLSTM, BGRU) for real-time fraud detection during transactions
+\end{itemize}
+
+\subsubsection{\texorpdfstring{Graduate Research Assistant \textbar{}
+\emph{University of California, Riverside} \textbar{} Fall 2016 --
+Winter
+2022}{Graduate Research Assistant \textbar{} University of California, Riverside \textbar{} Fall 2016 -- Winter 2022}}\label{graduate-research-assistant-university-of-california-riverside-fall-2016-winter-2022}
+
+\begin{itemize}
+\tightlist
+\item
+  Applied deep learning approaches to biological sequence prediction
+  problems, including CRISPR-Cas9 guide RNA prediction and histone
+  modification prediction
+\item
+  Published research in high-impact journals including Nature
+  Communications and Bioinformatics
+\end{itemize}
+
+\subsection{AI PROJECTS}\label{ai-projects}
+
+\subsubsection{RiskNavigator AI: Multi-Agent Financial Advisor
+(2025)}\label{risknavigator-ai-multi-agent-financial-advisor-2025}
+
+\href{https://github.com/daddyofadoggy/financial_advisor}{GitHub}
+\textbar{} \href{https://financial-advisor-r4ixiexwla-ue.a.run.app}{Live
+Demo} \textbar{}
+\href{https://daddyofadoggy.github.io/blog/posts/RiskNavigator/}{Blog}
+
+\begin{itemize}
+\tightlist
+\item
+  Architected production-grade 6-agent hierarchical AI system
+  implementing Agent-to-Agent (A2A) communication protocol and Model
+  Context Protocol (MCP) to orchestrate 60+ real-time financial APIs for
+  comprehensive automated financial analysis and risk assessment
+\item
+  Researched multi-agent vs.~monolithic LLM architectures through
+  comparative analysis, demonstrating 20\% improvement in output
+  consistency and reduced hallucination through agent specialization
+\item
+  Deployed serverless cloud architecture with auto-scaling
+  infrastructure (0-10 instances) achieving 99.9\% uptime, delivering
+  multi-dimensional risk assessment (market, liquidity,
+  company-specific) with automated strategy generation and PDF report
+  export
+\end{itemize}
+
+\subsubsection{Multimodal RAG System
+(2025)}\label{multimodal-rag-system-2025}
+
+\href{https://github.com/daddyofadoggy/multimodal-rag}{GitHub}
+\textbar{}
+\href{https://huggingface.co/spaces/doggdad/multimodal-rag}{Live Demo}
+
+\begin{itemize}
+\tightlist
+\item
+  Developed multimodal RAG system integrating video, audio, and text data with preprocessing workflows (OpenCV, Whisper) and BridgeTowerEmbeddings pipeline using LanceDB vector database for efficient cross-modal storage and retrieval
+\item
+  Deployed production system on HuggingFace Spaces using Pixtral vision-language model for multimodal conversation generation
+\end{itemize}
+
+\subsubsection{Agentic RAG System (2025)}\label{agentic-rag-system-2025}
+
+\href{https://huggingface.co/spaces/doggdad/agent_final_project/tree/main}{GitHub}
+\textbar{}
+\href{https://huggingface.co/spaces/doggdad/agent_final_project}{Live
+Demo}
+
+\begin{itemize}
+\tightlist
+\item
+  Developed Agentic RAG system using LangGraph orchestrating multi-step workflows with Qwen2.5-Coder-32B-Instruct, integrating specialized tools (Wikipedia, Arxiv, Tavily web search, mathematical operations) and Supabase vector database for semantic similarity search
+\item
+  Evaluated system performance using \textbf{GAIA} benchmark and deployed production system on HuggingFace Spaces
+\end{itemize}
+
+\subsubsection{Build and Deploy GPT-2 from Scratch
+(2025)}\label{build-and-deploy-gpt-2-from-scratch-2025}
+
+\href{https://github.com/daddyofadoggy/InstructGPT-from-scratch}{GitHub}
+\textbar{}
+\href{https://huggingface.co/spaces/doggdad/InstructGPTFinetuned}{Live
+Demo} \textbar{}
+\href{https://daddyofadoggy.github.io/blog/posts/LLM-From-Scratch/}{Blog}
+
+\begin{itemize}
+\tightlist
+\item
+  Built complete GPT architecture from scratch (124M-1,558M parameters) with tokenization, multi-head attention, layer normalization, and residual connections; validated against OpenAI weights and fine-tuned for spam classification (97\% accuracy) and instruction-following with DPO alignment
+\item
+  Deployed production chatbot on HuggingFace Spaces with controlled text generation (temperature scaling, top-k sampling) and comprehensive technical documentation
+\end{itemize}
+
+\subsection{LLM \& AI SKILLS}\label{llm-ai-skills}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Large Language Models:} GPT (OpenAI), Llama, Mistral, Claude,
+  Qwen, Gemini, BERT, Sentence-BERT, Pixtral
+\item
+  \textbf{Frameworks:} HuggingFace Transformers, LangChain, LangGraph,
+  PyTorch, TensorFlow, Google Agent Development Kit (ADK),
+\item
+  \textbf{Distributed Training:} FSDP, DeepSpeed, Hugging Face Accelerate,
+  Torchtitan, Mixed Precision Training (FP16/BF16)
+\item
+  \textbf{Profiling:} PyTorch Profiler, Nvidia NSight
+\item
+  \textbf{LLM Techniques:} Fine-tuning, Prompt Engineering, RAG, RLHF,
+  PEFT, LoRA, QLoRA, Red Teaming, Agent Orchestration, DPO, GRPO
+\item
+  \textbf{Multi-Agent Systems:} Agent-to-Agent (A2A) Communication,
+  State-Based Coordination, Hierarchical Agent Architecture, Model
+  Context Protocol (MCP)
+\item
+  \textbf{Multimodal:} Vision-Language Models (VLMs), OpenAI CLIP,
+  Whisper, BridgeTower, BLIP
+\item
+  \textbf{Vector Databases:} LanceDB, FAISS, ChromaDB, Supabase
+\item
+  \textbf{Cloud \& MLOps:} Amazon AWS, Lambda AI, Modal, Google Cloud
+  Run, Vertex AI, Docker, Cloud Build, FastAPI, Serverless Architecture,
+\end{itemize}
+
+\subsection{EDUCATION}\label{education}
+
+\textbf{Ph.D.~in Computer Science} \textbar{} \emph{University of
+California, Riverside} \textbar{} Winter 2022
+
+\textbf{B.Sc. in Computer Science and Engineering} \textbar{}
+\emph{Bangladesh University of Engineering \& Technology} \textbar{}
+February 2013
+
+\subsection{CERTIFICATIONS \& TRAINING}\label{certifications-training}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Coursera:} Generative AI with LLMs, CNNs, Structuring ML
+  Projects, Improving Deep Neural Networks
+\item
+  \textbf{HuggingFace:} Foundations of Agents - LangGraph, SmolAgent,
+  LangChain, CrewAI
+\item
+  \textbf{Maven:} Scratch to Scale: Large Scale Training in Modern World
+  - DDP, ZeRO Optimization, Pipeline and Tensor Parallelism, MoE, Mixed
+  Precision training (FP16/BF16)
+\end{itemize}
+
+\subsection{SELECTED PUBLICATIONS}\label{selected-publications}
+
+\begin{itemize}
+\tightlist
+\item
+  Baisya, D. R., Ramesh, A., Schwartz, C., Lonardi, S., \& Wheeldon, I.
+  ``Genome-wide functional screens enable the prediction of high
+  activity CRISPR-Cas9 and-Cas12a guides in Yarrowia lipolytica.''
+  Nature Communications (2022)
+\item
+  Baisya, Dipankar Ranjan, and Stefano Lonardi. ``Prediction Of Histone
+  Post-Translational Modifications Using Deep Learning.'' Bioinformatics
+  (2020)
+\item
+  Baisya, D. R., Wu, Yibbing., Raghebi, Zohreh. ``BOTSpot: Fast
+  Automatic Detection of BOT Attack'' AMLC (2024), Submitted
+\end{itemize}
+
+\end{document}

@@ -1,12 +1,12 @@
 # DIPANKAR R. BAISYA
 
-100 Denny Way, Unit 416, Seattle, WA 98109 | (909) 582-8488 | dbais001@ucr.edu | [LinkedIn](https://www.linkedin.com/in/dbaisya) | [GitHub](https://github.com/daddyofadoggy)
+100 Denny Way, Unit 416, Seattle, WA 98109 | (909) 582-8488 | dbais001@ucr.edu | [LinkedIn](https://www.linkedin.com/in/dbaisya) | [GitHub](https://github.com/daddyofadoggy) | [Website](https://daddyofadoggy.github.io/blog/)
 
 ---
 
 ## PROFESSIONAL SUMMARY
 
-Applied Scientist with expertise in Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Multi-Agent AI Systems, and production-grade generative AI deployment. Demonstrated success in fraud pattern detection using multimodal approaches, developing agentic AI systems, and architecting scalable cloud-native AI solutions. Experienced in fine-tuning, evaluation, and scaling of language models with a focus on business impact and production deployment.
+Applied Scientist with expertise in Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Multi-Agent AI Systems, and production-grade generative AI deployment. Demonstrated success in fraud pattern detection using both classical deep learning architectures (LSTM, GRU, Auto-encoders) and modern multimodal LLM approaches. Experienced in model interpretation for production systems, real-time performance matrics monitoring, and architecting scalable cloud-native AI solutions. Skilled in fine-tuning, evaluation, and scaling of language models with proven track record of business impact from internship to senior scientist level.
 
 ## EXPERIENCE
 
@@ -34,7 +34,7 @@ Applied Scientist with expertise in Large Language Models (LLMs), Retrieval-Augm
 ## AI PROJECTS
 
 ### RiskNavigator AI: Multi-Agent Financial Advisor (2025)
-**GitHub:** https://github.com/daddyofadoggy/financial_advisor | **Live Demo:** https://financial-advisor-r4ixiexwla-ue.a.run.app
+[GitHub](https://github.com/daddyofadoggy/financial_advisor) | [Live Demo](https://financial-advisor-r4ixiexwla-ue.a.run.app) | [Blog](https://daddyofadoggy.github.io/blog/posts/RiskNavigator/)
 
 - Architected production-grade 6-agent hierarchical AI system implementing Agent-to-Agent (A2A) communication protocol and Model Context Protocol (MCP) to orchestrate 60+ real-time financial APIs for comprehensive automated financial analysis and risk assessment
 - Researched multi-agent vs. monolithic LLM architectures through comparative analysis, demonstrating 20% improvement in output consistency and reduced hallucination through agent specialization
@@ -42,7 +42,7 @@ Applied Scientist with expertise in Large Language Models (LLMs), Retrieval-Augm
 
 
 ### Multimodal RAG System (2025)
-**Live Demo:** https://huggingface.co/spaces/doggdad/multimodal-rag
+[GitHub](https://github.com/daddyofadoggy/multimodal-rag) | [Live Demo](https://huggingface.co/spaces/doggdad/multimodal-rag)
 
 - Developed multimodal retrieval-augmented generation system integrating video, audio, and text data for cross-modal understanding
 - Implemented preprocessing workflows using OpenCV for video processing and Whisper for audio transcription and feature extraction
@@ -50,6 +50,7 @@ Applied Scientist with expertise in Large Language Models (LLMs), Retrieval-Augm
 - Deployed production-ready system on HuggingFace Spaces using Pixtral vision-language model for multimodal conversation generation
 
 ### Agentic RAG System (2025)
+[GitHub](https://huggingface.co/spaces/doggdad/agent_final_project/tree/main) | [Live Demo](https://huggingface.co/spaces/doggdad/agent_final_project)
 
 - Developed Agentic RAG system using LangGraph that orchestrates multi-step workflows combining retrieval and reasoning capabilities
 - Integrated Qwen2.5-Coder-32B-Instruct via HuggingFace Inference API with multiple specialized tools including Wikipedia search, Arxiv search, web search via Tavily, and mathematical operations
@@ -57,7 +58,7 @@ Applied Scientist with expertise in Large Language Models (LLMs), Retrieval-Augm
 - Evaluated system performance using GAIA benchmark and deployed production system on HuggingFace Spaces
 
 ### Build and Deploy GPT-2 from Scratch (2025)
-**GitHub:** https://github.com/daddyofadoggy/InstructGPT-from-scratch | **Live Demo:** https://huggingface.co/spaces/doggdad/InstructGPTFinetuned | **Blog:** https://daddyofadoggy.github.io/blog/posts/LLM-From-Scratch/
+[GitHub](https://github.com/daddyofadoggy/InstructGPT-from-scratch) | [Live Demo](https://huggingface.co/spaces/doggdad/InstructGPTFinetuned) | [Blog](https://daddyofadoggy.github.io/blog/posts/LLM-From-Scratch/)
 
 - Implemented complete GPT architecture from scratch (124M parameters) including byte-pair encoding tokenization, multi-head attention, layer normalization, GELU activations, and residual connections, then executed full pretraining pipeline and validated against OpenAI's pretrained weights up to 1,558M parameters
 - Fine-tuned model for spam classification achieving 97% accuracy, developed instruction-following capabilities using Alpaca-style prompts with automated evaluation, and implemented Direct Preference Optimization (DPO) for LLM alignment to human preferences
@@ -67,7 +68,8 @@ Applied Scientist with expertise in Large Language Models (LLMs), Retrieval-Augm
 
 - **Large Language Models:** GPT (OpenAI), Llama, Mistral, Claude, Qwen, Gemini, BERT, Sentence-BERT, Pixtral
 - **Frameworks:**  HuggingFace Transformers, LangChain, LangGraph,  PyTorch, TensorFlow, Google Agent Development Kit (ADK),
-- **Distributed Training:** FSDP, DeepSpeed, Megatron, Torchtitan, Mixed Precision Training (FP16/BF16)
+- **Distributed Training:** FSDP, DeepSpeed, Axolotl, trl, Torchtitan, Mixed Precision Training (FP16/BF16)
+- **Profiling:** PyTorch Profiler, Nvidia NSight
 - **LLM Techniques:** Fine-tuning, Prompt Engineering, RAG, RLHF, PEFT, LoRA, QLoRA, Red Teaming, Agent Orchestration, DPO, GRPO
 - **Multi-Agent Systems:** Agent-to-Agent (A2A) Communication, State-Based Coordination, Hierarchical Agent Architecture, Model Context Protocol (MCP)
 - **Multimodal:** Vision-Language Models (VLMs), OpenAI CLIP, Whisper, BridgeTower, BLIP
